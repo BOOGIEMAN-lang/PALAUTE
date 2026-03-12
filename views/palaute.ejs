@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Palaute</title>
+     <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Palaute</h1>
+
+<form method="POST" action="/palaute">
+
+    <label>Nimi:</label><br>
+    <input type="text" name="nimi" required>
+    <br><br>
+
+    <label>Sähköposti:</label><br>
+    <input type="email" name="sahkoposti" required>
+    <br><br>
+
+    <label>Palaute:</label><br>
+    <textarea name="palaute" rows="5" cols="40"></textarea>
+    <br><br>
+
+    <button type="submit">Lähetä</button>
+
+</form>
+
+</body>
+</html>
